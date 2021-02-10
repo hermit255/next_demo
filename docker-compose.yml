@@ -4,7 +4,7 @@ volumes:
   node_modules:
 services:
   app:
-    image: node:15.8.0-alpine3.10
+    image: node:12.20.1-alpine3.10
     ports:
       - '80:3000'
     volumes:

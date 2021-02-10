@@ -11,6 +11,9 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
 
+      - name: Installs dependencies
+        run: docker-compose run app npm install
+
       - name: Starts container
         run: docker-compose run export
 
