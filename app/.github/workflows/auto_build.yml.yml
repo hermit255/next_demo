@@ -1,5 +1,8 @@
 name: next build with container
-on: push
+on:
+  push:
+    branches:
+      - develop
 
 jobs:
   deploy:
@@ -13,9 +16,6 @@ jobs:
 
       - name: Starts container
         run: docker-compose run export
-
-      - name: export
-        run: touch ./app/out/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
