@@ -1,5 +1,8 @@
 const repository_name = "next_demo";
 
-module.exports = {
-  assetPrefix: "/" + repository_name,
+module.exports = (phase) => {
+  const assetPrefix = phase === "build" ? "/" + repository_name : "/";
+  return {
+    assetPrefix: assetPrefix,
+  };
 };
