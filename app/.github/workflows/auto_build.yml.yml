@@ -15,9 +15,9 @@ jobs:
         run: docker-compose run app npm install
 
       - name: Starts container
-        run: docker-compose run export
+        run: docker-compose run app npm run export
 
-      - name: export
+      - name: Add file to access directory with prefix `_`
         run: touch ./app/out/.nojekyll
 
       - name: Deploy to GitHub Pages
