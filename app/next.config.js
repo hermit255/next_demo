@@ -1,4 +1,6 @@
+require("dotenv").config();
+const repository_name = "next_demo";
+
 module.exports = {
-  // Use the CDN in production and localhost for development.
-  //assetPrefix: "./",
+  assetPrefix: process.env.GITHUB_PAGES ? "/" + repository_name : "",
 };
