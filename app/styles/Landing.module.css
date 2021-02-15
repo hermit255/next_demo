@@ -1,0 +1,31 @@
+.bg_base {
+  background: linear-gradient(
+    to right,
+    rgba(32,32,32,1) 0%,
+    rgba(255,255,255,0) 45%,
+    rgba(255,255,255,0) 55%,
+    rgba(32,32,32,1) 100%);
+}
+.gradation {
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,1) 0%,
+    rgba(255,255,255,0) 25%,
+    rgba(255,255,255,0) 75%,
+    rgba(255,255,255,1) 100%);
+}
+.mincho {
+  font-family: "ＭＳ Ｐ明朝", MS PMincho;
+}
+.bg_wd {
+  background-image: url('public/images/devon-janse-van-rensburg-t0ha5iieqVU-unsplash.jpg');
+}
+.bg_galaxy {
+  background-image: url('public/images/photo-1518066000714-58c45f1a2c0a.jpeg');
+}
+
+.btn_inquiry {
+  box-shadow: 5px 5px #777;
+  background: #742f37;
+  font-family: "ＭＳ Ｐ明朝", MS PMincho;
+}

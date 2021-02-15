@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.zoom {
+  transition: transform .1s;
+}
+.zoom:hover {
+  transform: scale(1.1);
+}
