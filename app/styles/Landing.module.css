@@ -29,3 +29,11 @@
   background: #742f37;
   font-family: "ＭＳ Ｐ明朝", MS PMincho;
 }
+.carousel_item {
+  min-height: 200px;
+  max-height: 500px;
+}
+.carousel_caption {
+  background-color: rgba(255,255,255,0.8);
+  padding: 1em;
+}

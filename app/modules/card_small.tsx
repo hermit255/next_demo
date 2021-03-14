@@ -1,4 +1,3 @@
-import card_s from 'styles/CardSmall.module.css'
 type Card = {
   title: string,
   text: string,

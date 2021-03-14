@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1080;
+}
+.spacer {
+  height: 40px;
+}
+.logo {
+  -webkit-box-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: inherit;
+  margin: 0;
+  padding: 1rem 0;
+  width: 167px;
+}

@@ -5,6 +5,7 @@ import header_s from 'styles/HeaderG.module.css'
 
 export default function HeaderG() {
   return (
+    <>
     <header className={header_s.header}>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -24,5 +25,7 @@ export default function HeaderG() {
         </Navbar.Collapse>
       </Navbar>
     </header>
+    <div className={header_s.spacer} />
+    </>
   )
 }
